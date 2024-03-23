@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four Tables Example</title>
+<style>
+    /* CSS for tables */
+    .table-container {
+        width: 100%;
+        text-align: center; /* Center align the content inside the container */
+    }
+    .table-container .table-wrapper {
+        display: inline-block;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+    th.blue {
+        background-color: #0000FF; /* Blue color for table headers */
+        color: white;
+    }
+    th.yellow {
+        background-color: yellow; /* Yellow color for table headers */
+    }
+    th.green {
+        background-color: green; /* Green color for table headers */
+        color: white;
+    }
+    th.navblue {
+        background-color: #000080; /* Navy blue color for table headers */
+        color: white;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
+</head>
+<body>
+    <h2 style="text-align: center;">Four Tables Example</h2>
+    
+    <div class="table-container">
+        <!-- Table 1 -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="blue">Column 1</th>
+                        <th class="blue">Column 2</th>
+                        <th class="blue">Column 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 1</td>
+                        <td>Row 1</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2</td>
+                        <td>Row 2</td>
+                        <td>Row 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3</td>
+                        <td>Row 3</td>
+                        <td>Row 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table 2 -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="yellow">Column A</th>
+                        <th class="yellow">Column B</th>
+                        <th class="yellow">Column C</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row A1</td>
+                        <td>Row A1</td>
+                        <td>Row A1</td>
+                    </tr>
+                    <tr>
+                        <td>Row A2</td>
+                        <td>Row A2</td>
+                        <td>Row A2</td>
+                    </tr>
+                    <tr>
+                        <td>Row A3</td>
+                        <td>Row A3</td>
+                        <td>Row A3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br> <!-- Line break to separate the rows -->
+
+        <!-- Table 3 -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="green">Header 1</th>
+                        <th class="green">Header 2</th>
+                        <th class="green">Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                        <td>Data 1</td>
+                    </tr>
+                    <tr>
+                        <td>Data 2</td>
+                        <td>Data 2</td>
+                        <td>Data 2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 3</td>
+                        <td>Data 3</td>
+                        <td>Data 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table 4 -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="navblue">Header A</th>
+                        <th class="navblue">Header B</th>
+                        <th class="navblue">Header C</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Info A1</td>
+                        <td>Info A1</td>
+                        <td>Info A1</td>
+                    </tr>
+                    <tr>
+                        <td>Info A2</td>
+                        <td>Info A2</td>
+                        <td>Info A2</td>
+                    </tr>
+                    <tr>
+                        <td>Info A3</td>
+                        <td>Info A3</td>
+                        <td>Info A3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
